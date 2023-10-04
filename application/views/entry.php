@@ -112,6 +112,6 @@
        $(this).parents("form").ajaxForm(options);
       });
       $("body").on("click","#btn-reseted",function(e){
-      window.location.replace("/");
+      window.location.replace("<?= base_url('regis-personel'); ?>");
       });
    </script>
