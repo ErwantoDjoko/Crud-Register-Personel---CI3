@@ -16,9 +16,6 @@
                     </div>
                     <div class="col-lg-12">
 
-                        <!-- <form style="text-align:left !important;" id="form_entrys" method="post" enctype="multipart/form-data" > -->
-                        
-
                         <?php echo form_open_multipart('regis-personel/post');?> 
                             <div class="form-row">
                                 <div class="form-group col-md-6">
@@ -97,18 +94,6 @@
                                 </div>
                                
                             </div>
-
-
-
-                            <!-- <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                        Check me out
-                                    </label>
-                                </div>
-                            </div> -->
-                            <!-- <input type="submit" class="upload-image" value="upload" />  -->
                             <button type="submit" class="btn btn-primary mr-2 upload-image" id="btn-submited">Register</button>
                             <button type="button" class="btn btn-secondary" id="btn-reseted">Reset</button>
                         </form>
@@ -127,6 +112,6 @@
        $(this).parents("form").ajaxForm(options);
       });
       $("body").on("click","#btn-reseted",function(e){
-       $(this).parents("form").ajaxForm(options);
+      window.location.replace("/");
       });
    </script>
