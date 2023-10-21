@@ -6,9 +6,6 @@ $CI->load->model('Prefix_Model', 'PrefixModel');
 
 <div class="container" id="tourpackages-carousel">
     <div class="row text-center m-2">
-        <!-- <div class="col-lg-12 text-center">
-            <h1>Hasil Scan QRCODE Personel </h1>
-        </div> -->
 
         <div class="col-xs-12">
             <div class="thumbnail">

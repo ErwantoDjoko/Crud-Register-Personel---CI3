@@ -1,28 +1,19 @@
-<?php
+ <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+?>
+	
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo base_url('assets/themes/own/styles.css'); ?>" >
+    <title>Personel</title>
+  </head>
+  <body>
 
-
-<link rel="stylesheet" href="<?= base_url('assets/themes/bootstrap-4.6.2-dist/css/bootstrap.min.css'); ?>" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-<link rel="stylesheet" href="<?= base_url('assets/themes/own/styles.css'); ?>" >
-<script src="<?= base_url('assets/themes/jquery371.js'); ?>"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="http://malsup.github.com/jquery.form.js"></script>
-
-</head>
-<body>
-<!-- Image and text -->
-<!-- <nav class="navbar navbar-light bg-primary">
-  <a class="navbar-brand" href="#">
-    <img src="<?= base_url('assets/images/logo.png') ?>" width="auto" height="40px" class="d-inline-block align-top" alt="">
-  </a>
-</nav> -->
-<div id="container">
-	
-	
-
+<div class="row m-1">
